@@ -15,6 +15,7 @@ paragrapf3.style.textDecoration = 'underline';
 let paragrapf4 = elemMyDiv.children[3];
 paragrapf4.style.fontStyle = 'italic';
 
+// list in one horizontal line
 let horizontList = document.querySelector('#myList');
 
 // to make a loop
