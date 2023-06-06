@@ -15,7 +15,7 @@ function displayFunc() {
         inputArr.push(input[i].value);
     }
     // add array into out block
-    childParagraph.innerHTML = `${inputArr.join(' ')}`;
+    childParagraph.innerHTML = `${inputArr.join(', ')}`;
 }
 
 btnSubmit.addEventListener("click", displayFunc);
