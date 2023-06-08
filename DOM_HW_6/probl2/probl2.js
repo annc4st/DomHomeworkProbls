@@ -33,7 +33,7 @@ for (let i = 0; i < listElem.length; i++) {
 // il3.style.display = 'inline-block';
 
 // invisible element span
-document.querySelector('span').style.display = 'none';
+document.querySelector('span').style.display = 'none'; // better style.visibility = 'hidden';
 
 
 
