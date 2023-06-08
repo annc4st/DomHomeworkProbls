@@ -8,6 +8,8 @@
 </body>
 */
 
+let body = document.querySelector('body');
+
 let mainTag = document.createElement('main');
 mainTag.className = 'mainClass check item';
 
@@ -17,5 +19,7 @@ div1.id = 'myDiv';
 let pFirst = document.createElement('p');
 pFirst.innerHTML = 'First paragraph';
 
+body.appendChild(mainTag);
 mainTag.appendChild(div1);
 div1.appendChild(pFirst);
+
