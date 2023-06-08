@@ -16,3 +16,6 @@ div1.id = 'myDiv';
 
 let pFirst = document.createElement('p');
 pFirst.innerHTML = 'First paragraph';
+
+mainTag.appendChild(div1);
+div1.appendChild(pFirst);
